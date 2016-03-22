@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    "syntax-function-bind",
+    "transform-function-bind",
+    "syntax-export-extensions",
+    "transform-export-extensions",
+    "syntax-async-functions",
+    "transform-regenerator"
+  ],
+  "presets": [
+    "es2015",
+    "react"
+  ]
+}
