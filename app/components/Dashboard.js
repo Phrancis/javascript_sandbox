@@ -1,5 +1,5 @@
 import React from 'react';
-import CommentBox from './CommentComponents/CommentBox';
+import CommentBox from './Comments/CommentBox';
 
 const Dashboard = () => (
     <div className="dashboard">
