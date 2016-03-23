@@ -21,17 +21,17 @@ function todos(state = [], action) {
                     text: action.text,
                     completed: false
                 }
-            ];
+            ]
         case COMPLETE_TODO:
             return state.map((todo, index) => {
                 if (index === action.index) {
                     return { 
                         ...todo,
                         completed: true
-                    };
+                    }
                 }
                 return todo;   
-            });
+            })
         default:
             return state;
     }
@@ -49,6 +49,6 @@ function visibilityFilter(state = SHOW_ALL, action) {
 const todoApp = combineReducers({
     visibilityFilter,
     todos
-});
+})
 
 export default todoApp;

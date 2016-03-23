@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "test": "mocha app/**/*.spec.js --compilers js:babel-register"
+    "test": "mocha app/**/*.spec.js --compilers js:babel-register",
+    "test-todo": "./app/components/TodoList/test.js"
   },
   "keywords": [],
   "author": "Dan Pantry <devnull@danpantry.me>",
