@@ -12,4 +12,4 @@ Todo.propTypes = {
     text: PropTypes.string.isRequired
 }
 
-export default todo
+export default Todo
